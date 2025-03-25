@@ -26,6 +26,11 @@ public class SpacecraftPart : MonoBehaviour
         }
     }
 
+    public GameObject getPart()
+    {
+        return this.part;
+    }
+
     public void showPanel()
     {
         panel.SetActive(true);
