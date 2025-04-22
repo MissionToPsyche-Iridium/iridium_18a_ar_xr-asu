@@ -11,6 +11,7 @@ public class ShowInfo : MonoBehaviour
     public SpacecraftPart grns;
     public SpacecraftPart doppler;
     public SpacecraftPart dsoc;
+    public SpacecraftPart propulsion;
     public SpacecraftPart solar;
 
     // Start is called before the first frame update
@@ -73,5 +74,21 @@ public class ShowInfo : MonoBehaviour
             if (currSelected == solar.getPart()) { solar.showPanel(); Debug.Log("Selected Object: solar"); }
             else { solar.hidePanel(); }
         }
+    }
+
+    private void OnMouseDown()
+    {
+        if (gameObject == magnetometer.getPart()) { magnetometer.showPanel(); Debug.Log("Selected Object: magnetometer"); }
+        else { magnetometer.hidePanel(); }
+        if (gameObject == multispectral.getPart()) { multispectral.showPanel(); Debug.Log("Selected Object: magnetometer"); }
+        else { multispectral.hidePanel(); }
+        if (gameObject == grns.getPart()) { grns.showPanel(); Debug.Log("Selected Object: grns"); }
+        else { grns.hidePanel(); }
+        if (gameObject == doppler.getPart()) { doppler.showPanel(); Debug.Log("Selected Object: doppler"); }
+        else { doppler.hidePanel(); }
+        if (gameObject == dsoc.getPart()) { dsoc.showPanel(); Debug.Log("Selected Object: dsoc"); }
+        else { dsoc.hidePanel(); }
+        if (gameObject == solar.getPart()) { solar.showPanel(); Debug.Log("Selected Object: solar"); }
+        else { solar.hidePanel(); }
     }
 }
