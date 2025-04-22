@@ -76,7 +76,7 @@ public class ShowInfo : MonoBehaviour
         }
     }
 
-    private void OnMouseDown()
+    void OnMouseDown()
     {
         if (gameObject == magnetometer.getPart()) { magnetometer.showPanel(); Debug.Log("Selected Object: magnetometer"); }
         else { magnetometer.hidePanel(); }
