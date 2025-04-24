@@ -3,10 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - SkyboxCamera
-  - Anchor
-  - Celestial
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -38,7 +35,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - XR Simulation
   - 
   m_SortingLayers:
   - name: Default
