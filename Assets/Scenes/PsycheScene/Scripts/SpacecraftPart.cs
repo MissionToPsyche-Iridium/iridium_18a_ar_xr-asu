@@ -4,20 +4,6 @@ public class SpacecraftPart : MonoBehaviour
 {
     public GameObject panel;
 
-    void Start()
-    {
-        if (panel == null)
-        {
-            Canvas canvas = FindObjectOfType<Canvas>();
-            Transform match = canvas.transform.Find(gameObject.name);
-            if (match != null)
-                panel = match.gameObject;
-        }
-
-        if (panel != null)
-            panel.SetActive(false);
-    }
-
     public void showPanel()
     {
         if (panel != null)

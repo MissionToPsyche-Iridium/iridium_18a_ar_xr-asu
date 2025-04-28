@@ -61,7 +61,7 @@ PrefabInstance:
     - target: {fileID: 1579327992965784796, guid: b50eaff3ac24fbc458c7f0533938a706,
         type: 3}
       propertyPath: m_Name
-      value: UI_Interactible Variant
+      value: UI_Interactible_SolarPanel
       objectReference: {fileID: 0}
     - target: {fileID: 4473355180085544199, guid: b50eaff3ac24fbc458c7f0533938a706,
         type: 3}
@@ -71,12 +71,27 @@ PrefabInstance:
     - target: {fileID: 4473355180085544199, guid: b50eaff3ac24fbc458c7f0533938a706,
         type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: togglePanel
+      value: TogglePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7002729973073819209, guid: b50eaff3ac24fbc458c7f0533938a706,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TogglePanel
       objectReference: {fileID: 0}
     - target: {fileID: 7201937330891231835, guid: b50eaff3ac24fbc458c7f0533938a706,
         type: 3}
       propertyPath: m_Name
       value: Propulsion
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017934206826796658, guid: b50eaff3ac24fbc458c7f0533938a706,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TogglePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850720530032455610, guid: b50eaff3ac24fbc458c7f0533938a706,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TogglePanel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
