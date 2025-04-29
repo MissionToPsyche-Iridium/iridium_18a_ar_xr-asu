@@ -3,9 +3,99 @@ guid: 14985cc9ba765b84799090721a114d01
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brightmetal_base
+    second: {fileID: 2100000, guid: 904fc35218855854c9f344cc95c3415e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkmetal
+    second: {fileID: 2100000, guid: f43771d98ae74a2478bd688178d36283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal
+    second: {fileID: 2100000, guid: 313361100093b824fb8422c3bd2b4be7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.001
+    second: {fileID: 2100000, guid: 9978ba2a73f8f4d4fa7ecc7d2ecc9482, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.002
+    second: {fileID: 2100000, guid: 776d8631b3ae33d468924317a9d72c58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.003
+    second: {fileID: 2100000, guid: 26b679be13f32f94299157eed7347caf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.004
+    second: {fileID: 2100000, guid: a8c043b778aa19d49a990ba9206263eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.005
+    second: {fileID: 2100000, guid: 0fa310aecbb64e84aa8097002e8edfe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.006
+    second: {fileID: 2100000, guid: cb0c5b24eef3d814883a998ee0721718, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.007
+    second: {fileID: 2100000, guid: 01d9a6ab480035b42a08443468478def, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.008
+    second: {fileID: 2100000, guid: 38379b5171afea24da094d0921772ee6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.009
+    second: {fileID: 2100000, guid: c40fa06dc8446df4fb34d490590f7948, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.010
+    second: {fileID: 2100000, guid: d69cea66ab68e1146b9b377eab5b9a1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.011
+    second: {fileID: 2100000, guid: 931437af1604bfe4fae1b3245abaf1a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.012
+    second: {fileID: 2100000, guid: d646793fdfddb5a45a1ae51e2da19647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.013
+    second: {fileID: 2100000, guid: e15712d971723e2499c62fa6c1329d9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightmetal.014
+    second: {fileID: 2100000, guid: aef98ae5eff751147a0ce71330b1d454, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: solarcell.001
+    second: {fileID: 2100000, guid: 3c1dd675987ef13498ca5a9e9cb311d3, type: 2}
   materials:
-    materialImportMode: 2
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
