@@ -14,7 +14,7 @@ the different instruments, an pop up displays relevant information about the sel
 
 ### Solar System Simulation:
 The second experience displays an accurate, to scale, model of the solar system. Each of the planets are modeled with accurate masses
-and gravitational weights. They orbit around the sun, and so does the Psyche asteroid! Users are able
+and gravitational weights. They orbit around the sun, and so does the Psyche asteroid! Users are able zoom in and follow the asteroid as it orbits.
 
 This work was created in partial fulfillment of Arizona State University Capstone Course “CSE 485/486″.
 The work is a result of the Psyche Student Collaborations component of NASA’s Psyche Mission (https://psyche.asu.edu/). 
