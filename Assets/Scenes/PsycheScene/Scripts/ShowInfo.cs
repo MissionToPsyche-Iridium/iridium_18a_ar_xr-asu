@@ -28,40 +28,11 @@ public class ShowInfo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray,out hit))
-            {
-                GameObject selected = hit.collider.gameObject;
-
-                if (selected == magnetometer.getPart())
-                {
-                    magnetometer.showPanel();
-                }
-                if (selected == multispectral.getPart())
-                {
-                    multispectral.showPanel();
-                }
-                if (selected == grns.getPart())
-                {
-                    grns.showPanel();
-                }
-                if (selected == doppler.getPart()) { doppler.showPanel(); }
-                if (selected == dsoc.getPart()) { dsoc.showPanel(); }
-                if (selected == solar.getPart()) { solar.showPanel(); }
-            }
-
-        }*/
 
         if (EventSystem.current.currentSelectedGameObject != null)
         {
             GameObject currSelected = EventSystem.current.currentSelectedGameObject;
-            if (currSelected == magnetometer.getPart()) { magnetometer.showPanel();
-                Debug.Log("Selected Object: magnetometer");
-            }
+            if (currSelected == magnetometer.getPart()) { magnetometer.showPanel(); Debug.Log("Selected Object: magnetometer"); }
             else { magnetometer.hidePanel(); }
             if (currSelected == multispectral.getPart()) { multispectral.showPanel(); Debug.Log("Selected Object: magnetometer"); }
             else { multispectral.hidePanel(); }
